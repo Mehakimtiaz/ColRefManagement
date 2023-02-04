@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sheduling Management system</title>
+    <meta charset="UTF-8">
+    <link href="vendor/css-hamburgers/jquery-ui.theme.css" rel="stylesheet" />
+    <link href="vendor/css-hamburgers/jquery-ui.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+    <script src="vendor/bootstrap/js/popper.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="javascripts/jquery-2.2.4.min.js"></script>
+    <script src="vendor/select2/select2.min.js"></script>
+    <script src="vendor/tilt/tilt.jquery.min.js"></script>
+  
+   <script src="javascripts/CreateMeeting.js"></script>
+    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+    <link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+    <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="css/util.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+
+    <div class="contact1">
+        <div class="container-contact1">
+            <div class="contact1-pic js-tilt" data-tilt>
+                <img src="icons/img-01.png" alt="IMG">
+            </div>
+
+            <form class="contact1-form validate-form" method="post">
+                <span class="contact1-form-title">
+                    Select Time Interval
+                </span>
+                <label>Now You Can scchedule Your Meeting.</label>
+
+                <div class="container-contact1-form-btn">
+                    <label class="radiocontainer">
+                        <span>
+                            <strong>15 Minutes Meetig</strong><input type="radio" id="meeting" name="meeting" value="fifteen" />
+                            <span class="checkmark"></span>
+                        </span></label>
+                 </div><br />
+                <div class="container-contact1-form-btn">
+                  
+                      <label class="radiocontainer">
+                        <span>
+                            <strong>30 Minutes Meetig</strong><input type="radio" id="meeting" name="meeting" value="thirty" />
+                            <span class="checkmark"></span>
+                        </span>
+                        </label>
+                      </div>
+                <br />
+                <div class="container-contact1-form-btn">
+                    <label class="radiocontainer">
+                        <span>
+                            <strong>  60 Minutes Meetig </strong><input type="radio" id="meeting" name="meeting" value="sixty" />
+                            <span class="checkmark"></span>
+                        </span></label>
+                  </div>
+                <div class="container-contact1-form-btn">
+                    <button class="contact1-form-btn" id="closebtn" name="closebtn">
+                        <span>
+                            Close
+                          
+                        </span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

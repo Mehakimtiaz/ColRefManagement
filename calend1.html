@@ -1,0 +1,78 @@
+﻿<html>
+<head>
+    <title>Sheduling Management system</title>
+    <meta charset="UTF-8">
+    <script src="Scripts/jquery-3.3.1.js"></script>
+    <script src="javascripts/jquery-2.2.4.min.js"></script>
+    <script src="Scripts/jquery-ui-1.12.1.js"></script>
+    <script src="javascripts/calend1.js"></script>
+    <script src="javascripts/jquery-ui.min.js"></script>
+    <script src="vendor/bootstrap/js/popper.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/select2/select2.min.js"></script>
+    <link href="vendor/css-hamburgers/jquery-ui.theme.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href="css/util.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+    <link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+    <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+   
+</head>
+<body>
+<div class="contact1">
+    <div class="container-contact1">
+        <div class="contact1-pic js-tilt" data-tilt>
+            <img src="icons/img-01.png" alt="IMG"></div>
+        <form class="contact1-form validate-form" method="post">
+            <span class="contact1-form-title">Schedule Fifteen Minutes Meeting  </span>
+            <label> Select Date to schedule a meeting:</label>
+            <div class="wrap-input1 validate-input" data-validate="Valid date is required">
+                <input class="input1" type="text" id="calndely" name="calndely" placeholder="Select Date" required>
+             <span class="shadow-input1"></span> </div>
+            <label> Select Time to schedule a meeting:</label>
+            <select id="curTime" class="input1" required>
+                <option value="9:00am - 9:15am">9:00am - 9:15am</option>
+                <option value="9:15am - 9:30am">9:15am - 9:30am</option>
+                <option value="9:30am - 9:45am">9:15am - 9:30am</option>
+                <option value="9:45am - 10:00am">9:45am - 10:00am</option>
+                <option value="10:00am - 10:15am">10:00am - 10:15am</option>
+                <option value="10:15am - 10:30am">10:15am - 10:30am</option>
+                <option value="10:30am - 10:45am">10:30am - 10:45am</option>
+                <option value="11:00am - 11:15am">11:00am - 11:15am</option>
+                <option value="11:15am - 11:30am">11:15am - 11:30am</option>
+                <option value="11:30am - 11:45am">11:30am - 11:45am</option>
+                <option value="11:45am - 12:00pm">11:45am - 12:00pm</option>
+                <option value="12:00pm - 12:15pm">12:00pm - 12:15pm</option>
+                <option value="12:15pm - 12:30pm">12:15pm - 12:30pm</option>
+                <option value="12:30pm - 12:45pm">12:30pm - 12:45pm</option>
+                <option value="12:45pm - 1:00pm">12:45pm - 1:00pm</option>
+            </select><br>
+            <label>Select an User to scehdule a meeting: </label>
+            <select id="LoginIDs" name="LoginIDs" class="input1" required>
+                <option selected disabled>Choose Email</option>
+            </select>
+            <br><br>
+                <div class="container-contact1-form-btn">
+                    <button class="contact1-form-btn" id="submitmeeting" name="submitmeeting">
+                        <span>
+                            Create Meeting
+                            <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                        </span>
+                    </button>
+                </div>
+            <br>
+            <button class="contact1-form-btn" id="Logout" name="Logout">
+                <span>
+                    Logout
+
+                </span>
+            </button>
+        </form>
+</div>
+</div>
+</body>
+</html>
